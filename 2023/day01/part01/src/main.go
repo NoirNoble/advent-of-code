@@ -79,7 +79,7 @@ func main() {
 	} else {
 		input_name = "input.txt"
 	}
-	path := "2023/01/01/" + input_name
+	path := "2023/day01/part01/" + input_name
 
 	lines, err := readLines(path)
 	if err != nil {
